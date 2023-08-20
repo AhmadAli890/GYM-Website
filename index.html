@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHMAD FITNESS</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: italic;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/gb.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 50px;
+        top: 34px;
+
+    }
+
+    .left div {
+        line-height: 20pxpx;
+        font-size: 15px;
+    }
+
+    .left img {
+        text-align: center;
+        width: 110px;
+    }
+
+    .mid {
+        display: block;
+        width: 34%;
+        margin: 34px auto;
+
+
+    }
+
+    .right {
+        position: absolute;
+        top: 80px;
+        right: 33px;
+        display: inline-block;
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 30px 15px;
+
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: brown;
+    }
+
+    .btn {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px 10px;
+        color: white;
+        background-color: black;
+        padding: 3px 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: blue;
+    }
+
+    .container {
+        border: 2px solid rgb(40, 41, 41);
+        margin: 102px 50px;
+        padding: 25px 52px;
+        border-radius: 28px;
+        width: 33%;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: 20px auto;
+        width: 83%;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/pp.jpg" alt="">
+            <div>AHMAD CLUB</div>
+        </div>
+        <!-- mid for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></>
+                </li>
+                <li><a href="#">FITNESS TIPS</a></>
+                </li>
+                <li><a href="#">ABOUT US</a></>
+                </li>
+                <li><a href="#">CONTACT US</a></>
+                </li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">HEALTH PRODUCTS</button>
+            <button class="btn">HEALTH GUIDE</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN OUR GYM</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Gender">
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Nationality">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your E-mail address">
+                        </div>
+                        <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
